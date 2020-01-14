@@ -20,8 +20,9 @@ export default class Header extends Component {
                   Call Now: <a href="tel:3077608328">(307)760-8328</a>
                 </p>
                 <li>Home</li>
-                <li>Products</li>
                 <li>About</li>
+                <li>Products</li>
+                <li>Gallery</li>
                 <li className="contact-nav">Email</li>
                 {/* <i class="fas fa-shopping-cart"></i> */}
               </ul>

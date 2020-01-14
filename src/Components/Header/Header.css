@@ -1,6 +1,6 @@
 .header-main {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.895)), to(rgba(0, 0, 0, 0.435))), url(../../assets/Plasma-Cutter_2);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.895), rgba(0, 0, 0, 0.435)), url(../../assets/Plasma-Cutter_2);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.895)), to(rgba(0, 0, 0, 0.435))), url(../../assets/Plasma-Cutter.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.895), rgba(0, 0, 0, 0.435)), url(../../assets/Plasma-Cutter.jpg);
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8,10 +8,11 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-family: "Cinzel", serif;
 }
 
 .header-main .header-contents {
-  height: 90vh;
+  height: 100vh;
   width: 97vw;
 }
 
@@ -39,7 +40,7 @@
 }
 
 .header-main .header-contents .header-top-contents .header-right {
-  width: 40%;
+  width: 42%;
 }
 
 .header-main .header-contents .header-top-contents .header-right ul {
@@ -118,12 +119,14 @@
 }
 
 .header-main .header-contents .header-middle-contents .middle-contents h1 {
+  font-family: "Allerta Stencil", sans-serif;
   font-size: 40px;
   font-weight: 100;
   color: rgba(196, 193, 193, 0.802);
 }
 
 .header-main .header-contents .header-middle-contents .middle-contents h3 {
+  font-family: "Montserrat Subrayada", sans-serif;
   font-size: 50px;
   font-weight: 900;
   color: #ebe9e9;

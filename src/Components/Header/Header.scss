@@ -1,15 +1,15 @@
 .header-main {
   background-image: linear-gradient(rgba(0, 0, 0, 0.895), rgba(0, 0, 0, 0.435)),
-    url(../../assets/Plasma-Cutter_2);
+    url(../../assets/Plasma-Cutter.jpg);
   background-size: cover;
   display: flex;
   justify-content: center;
+  font-family: "Cinzel", serif;
   .header-contents {
-    height: 90vh;
+    height: 100vh;
     width: 97vw;
     // border: dotted;
     // border-color: lightcoral;
-    // padding: 25px 55px 0 25px;
     .header-top-contents {
       height: 15vh;
       //   border: dotted;
@@ -26,7 +26,7 @@
         }
       }
       .header-right {
-        width: 40%;
+        width: 42%;
         ul {
           color: white;
           display: flex;
@@ -77,11 +77,13 @@
         align-items: center;
         flex-direction: column;
         h1 {
+          font-family: "Allerta Stencil", sans-serif;
           font-size: 40px;
           font-weight: 100;
           color: rgba(196, 193, 193, 0.802);
         }
         h3 {
+          font-family: "Montserrat Subrayada", sans-serif;
           font-size: 50px;
           font-weight: 900;
           color: rgb(235, 233, 233);
