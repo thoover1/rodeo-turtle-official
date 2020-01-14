@@ -1,6 +1,6 @@
 .header-main {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.895), rgba(0, 0, 0, 0.435)),
-    url(../../assets/Plasma-Cutter.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.945), rgba(0, 0, 0, 0.635)),
+    url(../../assets/Plasma-Cutter_5);
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -34,21 +34,22 @@
           align-items: center;
           //   border: dotted;
           //   border-color: greenyellow;
-          a,
-          p {
+          a {
             font-size: 20px;
             color: khaki;
           }
           a:hover {
-            color: blue;
+            color: rgb(85, 85, 255);
           }
+          p,
           li,
           i {
             font-size: 20px;
           }
           li:hover,
           i:hover {
-            color: rgba(70, 70, 70, 0.646);
+            font-weight: 900;
+            color: rgb(117, 117, 117);
             cursor: pointer;
           }
           .contact-nav {
@@ -59,15 +60,13 @@
           }
           .contact-nav:hover {
             background-color: white;
-            color: rgba(70, 70, 70, 0.646);
+            color: rgb(44, 44, 44);
           }
         }
       }
     }
     .header-middle-contents {
-      height: 35vh;
-      //   border: dotted;
-      //   border-color: red;
+      height: 55vh;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -79,15 +78,18 @@
         h1 {
           font-family: "Allerta Stencil", sans-serif;
           font-size: 40px;
-          font-weight: 100;
-          color: rgba(196, 193, 193, 0.802);
+          font-weight: 400;
+          color: khaki;
         }
         h3 {
           font-family: "Montserrat Subrayada", sans-serif;
-          font-size: 50px;
-          font-weight: 900;
+          font-size: 60px;
+          font-weight: 100;
           color: rgb(235, 233, 233);
         }
+        // .header-spurs {
+        //   font-family: "Cinzel", serif;
+        // }
       }
     }
   }

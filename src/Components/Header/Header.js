@@ -17,7 +17,7 @@ export default class Header extends Component {
             <nav className="header-right">
               <ul>
                 <p>
-                  Call Now: <a href="tel:3077608328">(307)760-8328</a>
+                  Call Now: <a href="tel:3077608328">307-760-8328</a>
                 </p>
                 <li>Home</li>
                 <li>About</li>
@@ -34,10 +34,15 @@ export default class Header extends Component {
               <br />
               <br />
               <br />
-              <h3>Premier Custom Metal Design</h3>
-              {/* <h3>&</h3> */}
+              <h3>Premier Personalized And</h3>
               <br />
-              <h3>Patent Designed Turtle Spurs</h3>
+              <h3>Custom Metal Design</h3>
+              {/* <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <h3 className="header-spurs">Commercial Grade Turtle Spurs</h3> */}
             </span>
           </div>
         </div>
