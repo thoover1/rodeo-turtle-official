@@ -1,0 +1,58 @@
+.header-main {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.795)), to(rgba(0, 0, 0, 0.326))), url(../../assets/logo.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.326)), url(../../assets/logo.png);
+  background-size: cover;
+}
+
+.header-main .header-contents {
+  height: 90vh;
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 15px 25px 0 25px;
+}
+
+.header-main .header-contents .header-left {
+  width: 30%;
+}
+
+.header-main .header-contents .header-left .header-logo {
+  height: auto;
+  width: 9rem;
+}
+
+.header-main .header-contents .header-right {
+  width: 40%;
+}
+
+.header-main .header-contents .header-right ul {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-main .header-contents .header-right ul li,
+.header-main .header-contents .header-right ul i {
+  font-size: 50px;
+  text-shadow: 2px 2px #2f2b2b;
+}
+
+.header-main .header-contents .header-right ul li:hover,
+.header-main .header-contents .header-right ul i:hover {
+  color: blue;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Header.css.map */

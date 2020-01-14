@@ -1,0 +1,41 @@
+.header-main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.326)),
+    url(../../assets/logo.png);
+  background-size: cover;
+  .header-contents {
+    height: 90vh;
+    width: auto;
+    // border: dotted;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 15px 25px 0 25px;
+    .header-left {
+      width: 30%;
+      .header-logo {
+        height: auto;
+        width: 9rem;
+      }
+    }
+    .header-right {
+      width: 40%;
+      ul {
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        li,
+        i {
+          font-size: 50px;
+          text-shadow: 2px 2px rgb(47, 43, 43);
+        }
+        li:hover,
+        i:hover {
+          color: blue;
+          cursor: pointer;
+          //   text-shadow: 2px 2px rgb(255, 255, 255);
+        }
+      }
+    }
+  }
+}
