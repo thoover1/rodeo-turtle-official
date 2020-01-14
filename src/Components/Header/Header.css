@@ -1,58 +1,131 @@
 .header-main {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.795)), to(rgba(0, 0, 0, 0.326))), url(../../assets/logo.png);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.326)), url(../../assets/logo.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.895)), to(rgba(0, 0, 0, 0.435))), url(../../assets/Plasma-Cutter_2);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.895), rgba(0, 0, 0, 0.435)), url(../../assets/Plasma-Cutter_2);
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .header-main .header-contents {
   height: 90vh;
-  width: auto;
+  width: 97vw;
+}
+
+.header-main .header-contents .header-top-contents {
+  height: 15vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  padding: 15px 25px 0 25px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 15px;
 }
 
-.header-main .header-contents .header-left {
+.header-main .header-contents .header-top-contents .header-left {
   width: 30%;
 }
 
-.header-main .header-contents .header-left .header-logo {
+.header-main .header-contents .header-top-contents .header-left .header-logo {
   height: auto;
   width: 9rem;
 }
 
-.header-main .header-contents .header-right {
+.header-main .header-contents .header-top-contents .header-right {
   width: 40%;
 }
 
-.header-main .header-contents .header-right ul {
+.header-main .header-contents .header-top-contents .header-right ul {
   color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.header-main .header-contents .header-right ul li,
-.header-main .header-contents .header-right ul i {
-  font-size: 50px;
-  text-shadow: 2px 2px #2f2b2b;
+.header-main .header-contents .header-top-contents .header-right ul a,
+.header-main .header-contents .header-top-contents .header-right ul p {
+  font-size: 20px;
+  color: khaki;
 }
 
-.header-main .header-contents .header-right ul li:hover,
-.header-main .header-contents .header-right ul i:hover {
+.header-main .header-contents .header-top-contents .header-right ul a:hover {
   color: blue;
+}
+
+.header-main .header-contents .header-top-contents .header-right ul li,
+.header-main .header-contents .header-top-contents .header-right ul i {
+  font-size: 20px;
+}
+
+.header-main .header-contents .header-top-contents .header-right ul li:hover,
+.header-main .header-contents .header-top-contents .header-right ul i:hover {
+  color: rgba(70, 70, 70, 0.646);
   cursor: pointer;
+}
+
+.header-main .header-contents .header-top-contents .header-right ul .contact-nav {
+  padding: 5px 30px;
+  border: solid;
+  border-color: white;
+  border-width: medium;
+}
+
+.header-main .header-contents .header-top-contents .header-right ul .contact-nav:hover {
+  background-color: white;
+  color: rgba(70, 70, 70, 0.646);
+}
+
+.header-main .header-contents .header-middle-contents {
+  height: 35vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-main .header-contents .header-middle-contents .middle-contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header-main .header-contents .header-middle-contents .middle-contents h1 {
+  font-size: 40px;
+  font-weight: 100;
+  color: rgba(196, 193, 193, 0.802);
+}
+
+.header-main .header-contents .header-middle-contents .middle-contents h3 {
+  font-size: 50px;
+  font-weight: 900;
+  color: #ebe9e9;
 }
 /*# sourceMappingURL=Header.css.map */

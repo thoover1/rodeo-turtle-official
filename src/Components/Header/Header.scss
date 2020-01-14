@@ -1,39 +1,90 @@
 .header-main {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.326)),
-    url(../../assets/logo.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.895), rgba(0, 0, 0, 0.435)),
+    url(../../assets/Plasma-Cutter_2);
   background-size: cover;
+  display: flex;
+  justify-content: center;
   .header-contents {
     height: 90vh;
-    width: auto;
+    width: 97vw;
     // border: dotted;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 15px 25px 0 25px;
-    .header-left {
-      width: 30%;
-      .header-logo {
-        height: auto;
-        width: 9rem;
+    // border-color: lightcoral;
+    // padding: 25px 55px 0 25px;
+    .header-top-contents {
+      height: 15vh;
+      //   border: dotted;
+      //   border-color: blue;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 15px;
+      .header-left {
+        width: 30%;
+        .header-logo {
+          height: auto;
+          width: 9rem;
+        }
+      }
+      .header-right {
+        width: 40%;
+        ul {
+          color: white;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          //   border: dotted;
+          //   border-color: greenyellow;
+          a,
+          p {
+            font-size: 20px;
+            color: khaki;
+          }
+          a:hover {
+            color: blue;
+          }
+          li,
+          i {
+            font-size: 20px;
+          }
+          li:hover,
+          i:hover {
+            color: rgba(70, 70, 70, 0.646);
+            cursor: pointer;
+          }
+          .contact-nav {
+            padding: 5px 30px;
+            border: solid;
+            border-color: white;
+            border-width: medium;
+          }
+          .contact-nav:hover {
+            background-color: white;
+            color: rgba(70, 70, 70, 0.646);
+          }
+        }
       }
     }
-    .header-right {
-      width: 40%;
-      ul {
-        color: white;
+    .header-middle-contents {
+      height: 35vh;
+      //   border: dotted;
+      //   border-color: red;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .middle-contents {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
-        li,
-        i {
-          font-size: 50px;
-          text-shadow: 2px 2px rgb(47, 43, 43);
+        flex-direction: column;
+        h1 {
+          font-size: 40px;
+          font-weight: 100;
+          color: rgba(196, 193, 193, 0.802);
         }
-        li:hover,
-        i:hover {
-          color: blue;
-          cursor: pointer;
-          //   text-shadow: 2px 2px rgb(255, 255, 255);
+        h3 {
+          font-size: 50px;
+          font-weight: 900;
+          color: rgb(235, 233, 233);
         }
       }
     }
