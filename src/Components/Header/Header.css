@@ -2,6 +2,7 @@
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.945)), to(rgba(0, 0, 0, 0.635))), url(../../assets/Plasma-Cutter_5);
   background-image: linear-gradient(rgba(0, 0, 0, 0.945), rgba(0, 0, 0, 0.635)), url(../../assets/Plasma-Cutter_5);
   background-position: center;
+  background-repeat: no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -83,15 +84,19 @@
   border: solid;
   border-color: white;
   border-width: medium;
+  color: white;
+  text-decoration: none;
 }
 
 .header-main .header-contents .header-top-contents .header-right ul .contact-nav:hover {
+  font-weight: 900;
   background-color: white;
   color: #2c2c2c;
+  border-color: grey;
 }
 
 .header-main .header-contents .header-middle-contents {
-  height: 55vh;
+  height: 50vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -124,6 +129,11 @@
   font-size: 40px;
   font-weight: 400;
   color: khaki;
+}
+
+.header-main .header-contents .header-middle-contents .middle-contents h2 {
+  font-size: 20px;
+  color: grey;
 }
 
 .header-main .header-contents .header-middle-contents .middle-contents h3 {

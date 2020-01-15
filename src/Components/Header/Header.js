@@ -17,13 +17,15 @@ export default class Header extends Component {
             <nav className="header-right">
               <ul>
                 <p>
-                  Call Now: <a href="tel:3077608328">555-555-5555</a>
+                  Call Now: <a href="tel:5555555555">555-555-5555</a>
                 </p>
                 <li>Home</li>
                 <li>About</li>
                 <li>Products</li>
                 <li>Gallery</li>
-                <li className="contact-nav">Email</li>
+                <a className="contact-nav" href="mailto:johnny@rodeoturtle.com">
+                  Email
+                </a>
                 {/* <i class="fas fa-shopping-cart"></i> */}
               </ul>
             </nav>
@@ -31,6 +33,8 @@ export default class Header extends Component {
           <div className="header-middle-contents">
             <span className="middle-contents">
               <h1>Rodeo Turtle, LLC</h1>
+              <br />
+              <h2>Fort Collins, CO</h2>
               <br />
               <br />
               <br />

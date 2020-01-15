@@ -2,6 +2,7 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.945), rgba(0, 0, 0, 0.635)),
     url(../../assets/Plasma-Cutter_5);
   background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   font-family: "Cinzel", serif;
@@ -57,16 +58,20 @@
             border: solid;
             border-color: white;
             border-width: medium;
+            color: white;
+            text-decoration: none;
           }
           .contact-nav:hover {
+            font-weight: 900;
             background-color: white;
             color: rgb(44, 44, 44);
+            border-color: grey;
           }
         }
       }
     }
     .header-middle-contents {
-      height: 55vh;
+      height: 50vh;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -80,6 +85,10 @@
           font-size: 40px;
           font-weight: 400;
           color: khaki;
+        }
+        h2 {
+          font-size: 20px;
+          color: grey;
         }
         h3 {
           font-family: "Montserrat Subrayada", sans-serif;
