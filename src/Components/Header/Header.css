@@ -1,7 +1,7 @@
 .header-main {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.945)), to(rgba(0, 0, 0, 0.635))), url(../../assets/Plasma-Cutter_5);
   background-image: linear-gradient(rgba(0, 0, 0, 0.945), rgba(0, 0, 0, 0.635)), url(../../assets/Plasma-Cutter_5);
-  background-size: cover;
+  background-position: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,7 +40,7 @@
 }
 
 .header-main .header-contents .header-top-contents .header-right {
-  width: 42%;
+  width: 42vw;
 }
 
 .header-main .header-contents .header-top-contents .header-right ul {

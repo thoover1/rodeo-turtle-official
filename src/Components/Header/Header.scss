@@ -1,7 +1,7 @@
 .header-main {
   background-image: linear-gradient(rgba(0, 0, 0, 0.945), rgba(0, 0, 0, 0.635)),
     url(../../assets/Plasma-Cutter_5);
-  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   font-family: "Cinzel", serif;
@@ -26,7 +26,7 @@
         }
       }
       .header-right {
-        width: 42%;
+        width: 42vw;
         ul {
           color: white;
           display: flex;
