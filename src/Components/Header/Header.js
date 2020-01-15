@@ -17,7 +17,7 @@ export default class Header extends Component {
             <nav className="header-right">
               <ul>
                 <p>
-                  Call Now: <a href="tel:3077608328">307-760-8328</a>
+                  Call Now: <a href="tel:3077608328">555-555-5555</a>
                 </p>
                 <li>Home</li>
                 <li>About</li>
