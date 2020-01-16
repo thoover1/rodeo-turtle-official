@@ -30,25 +30,6 @@ export default class Header extends Component {
               </ul>
             </nav>
           </div>
-          <div className="header-middle-contents">
-            <span className="middle-contents">
-              <h1>Rodeo Turtle, LLC</h1>
-              <br />
-              <h2>Fort Collins, CO</h2>
-              <br />
-              <br />
-              <br />
-              <h3>Premier Personalized And</h3>
-              <br />
-              <h3>Custom Metal Design</h3>
-              {/* <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <h3 className="header-spurs">Commercial Grade Turtle Spurs</h3> */}
-            </span>
-          </div>
         </div>
       </div>
     );
