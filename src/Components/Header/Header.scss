@@ -1,5 +1,8 @@
+// $primaryColor: rgb(0, 117, 10);
+$primaryColor: limegreen;
+
 .header-main {
-  background-color: black;
+  background-color: white;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
@@ -26,17 +29,18 @@
         }
       }
       .header-right {
-        width: 42vw;
+        width: 70%;
         ul {
-          color: white;
+          color: black;
           display: flex;
-          justify-content: space-between;
+          // change justify content to flex-end if johnny likes second mockup with contacts page (view line 51 also)
+          justify-content: flex-end;
           align-items: center;
           //   border: dotted;
           //   border-color: greenyellow;
           a {
             font-size: 20px;
-            color: khaki;
+            color: $primaryColor;
           }
           a:hover {
             color: rgb(85, 85, 255);
@@ -44,60 +48,31 @@
           p,
           li,
           i {
+            // use padding if johnny likes second mockup with contacts page
+            padding-left: 100px;
             font-size: 20px;
           }
           li:hover,
           i:hover {
             font-weight: 900;
-            color: rgb(117, 117, 117);
+            color: $primaryColor;
             cursor: pointer;
           }
           .contact-nav {
             padding: 5px 30px;
             border: solid;
-            border-color: white;
+            border-color: black;
             border-width: medium;
-            color: white;
+            color: black;
             text-decoration: none;
           }
           .contact-nav:hover {
             font-weight: 900;
-            background-color: white;
+            background-color: $primaryColor;
             color: rgb(44, 44, 44);
-            border-color: grey;
+            border-color: $primaryColor;
           }
         }
-      }
-    }
-    .header-middle-contents {
-      height: 50vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      .middle-contents {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        h1 {
-          font-family: "Allerta Stencil", sans-serif;
-          font-size: 40px;
-          font-weight: 400;
-          color: khaki;
-        }
-        h2 {
-          font-size: 20px;
-          color: grey;
-        }
-        h3 {
-          font-family: "Montserrat Subrayada", sans-serif;
-          font-size: 60px;
-          font-weight: 100;
-          color: rgb(235, 233, 233);
-        }
-        // .header-spurs {
-        //   font-family: "Cinzel", serif;
-        // }
       }
     }
   }

@@ -1,0 +1,8 @@
+.landing-page {
+  background-image: url(../../assets/Plasma-Cutter_5);
+  -webkit-filter: grayscale(85%);
+          filter: grayscale(85%);
+  height: 80vh;
+  width: 100vw;
+}
+/*# sourceMappingURL=Landing.css.map */

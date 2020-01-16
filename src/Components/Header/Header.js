@@ -15,17 +15,29 @@ export default class Header extends Component {
               </NavLink>
             </span>
             <nav className="header-right">
-              <ul>
+              {/* <ul>
                 <p>
                   Call Now: <a href="tel:5555555555">555-555-5555</a>
                 </p>
                 <li>Home</li>
-                <li>About</li>
-                <li>Products</li>
+                <li>About Us</li>
                 <li>Gallery</li>
+                <li>Turtle Spurs</li>
+                <li>
+                  Goods & Gear <i class="fas fa-caret-down"></i>
+                </li>
                 <a className="contact-nav" href="mailto:johnny@rodeoturtle.com">
                   Email
                 </a>
+                {/* <i class="fas fa-shopping-cart"></i> 
+              </ul> */}
+              {/* use below option if wanting 'contact us' page */}
+              <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Gallery</li>
+                <li>Turtle Spurs</li>
+                <li>Contact Us</li>
                 {/* <i class="fas fa-shopping-cart"></i> */}
               </ul>
             </nav>

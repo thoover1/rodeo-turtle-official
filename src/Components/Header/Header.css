@@ -1,5 +1,5 @@
 .header-main {
-  background-color: black;
+  background-color: white;
   background-position: center;
   background-repeat: no-repeat;
   display: -webkit-box;
@@ -39,17 +39,17 @@
 }
 
 .header-main .header-contents .header-top-contents .header-right {
-  width: 42vw;
+  width: 70%;
 }
 
 .header-main .header-contents .header-top-contents .header-right ul {
-  color: white;
+  color: black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -57,7 +57,7 @@
 
 .header-main .header-contents .header-top-contents .header-right ul a {
   font-size: 20px;
-  color: khaki;
+  color: limegreen;
 }
 
 .header-main .header-contents .header-top-contents .header-right ul a:hover {
@@ -67,77 +67,30 @@
 .header-main .header-contents .header-top-contents .header-right ul p,
 .header-main .header-contents .header-top-contents .header-right ul li,
 .header-main .header-contents .header-top-contents .header-right ul i {
+  padding-left: 100px;
   font-size: 20px;
 }
 
 .header-main .header-contents .header-top-contents .header-right ul li:hover,
 .header-main .header-contents .header-top-contents .header-right ul i:hover {
   font-weight: 900;
-  color: #757575;
+  color: limegreen;
   cursor: pointer;
 }
 
 .header-main .header-contents .header-top-contents .header-right ul .contact-nav {
   padding: 5px 30px;
   border: solid;
-  border-color: white;
+  border-color: black;
   border-width: medium;
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
 .header-main .header-contents .header-top-contents .header-right ul .contact-nav:hover {
   font-weight: 900;
-  background-color: white;
+  background-color: limegreen;
   color: #2c2c2c;
-  border-color: grey;
-}
-
-.header-main .header-contents .header-middle-contents {
-  height: 50vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.header-main .header-contents .header-middle-contents .middle-contents {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.header-main .header-contents .header-middle-contents .middle-contents h1 {
-  font-family: "Allerta Stencil", sans-serif;
-  font-size: 40px;
-  font-weight: 400;
-  color: khaki;
-}
-
-.header-main .header-contents .header-middle-contents .middle-contents h2 {
-  font-size: 20px;
-  color: grey;
-}
-
-.header-main .header-contents .header-middle-contents .middle-contents h3 {
-  font-family: "Montserrat Subrayada", sans-serif;
-  font-size: 60px;
-  font-weight: 100;
-  color: #ebe9e9;
+  border-color: limegreen;
 }
 /*# sourceMappingURL=Header.css.map */
