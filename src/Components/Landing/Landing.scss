@@ -1,6 +1,28 @@
 .landing-page {
-  background-image: url(../../assets/Plasma-Cutter_5);
-  filter: grayscale(85%);
-  height: 80vh;
+  // background-image: url(../../assets/Plasma-Cutter_5);
+  // filter: grayscale(85%);
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
   width: 100vw;
+  // position: relative;
+  // overflow: hidden;
+  img {
+    // position: absolute;
+    // overflow: hidden;
+    object-fit: cover;
+    filter: grayscale(85%);
+    height: 80vh;
+    width: 100%;
+  }
+  h1 {
+    position: absolute;
+    color: limegreen;
+    font-size: 50px;
+    font-family: "CoffeetinInitials";
+    font-weight: 100;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }

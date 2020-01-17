@@ -23,11 +23,8 @@ export default class Header extends Component {
                 <li>About Us</li>
                 <li>Gallery</li>
                 <li>Turtle Spurs</li>
-                <li>
-                  Goods & Gear <i class="fas fa-caret-down"></i>
-                </li>
                 <a className="contact-nav" href="mailto:johnny@rodeoturtle.com">
-                  Email
+                Email
                 </a>
                 {/* <i class="fas fa-shopping-cart"></i> 
               </ul> */}
@@ -35,6 +32,11 @@ export default class Header extends Component {
               <ul>
                 <li>Home</li>
                 <li>About Us</li>
+                <li className="goods">
+                  Goods & Gear
+                  {/* <i class="fas fa-chevron-down"></i> */}
+                  <i class="fas fa-caret-down"></i>
+                </li>
                 <li>Gallery</li>
                 <li>Turtle Spurs</li>
                 <li>Contact Us</li>

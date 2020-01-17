@@ -1,8 +1,25 @@
 .landing-page {
-  background-image: url(../../assets/Plasma-Cutter_5);
+  width: 100vw;
+}
+
+.landing-page img {
+  -o-object-fit: cover;
+     object-fit: cover;
   -webkit-filter: grayscale(85%);
           filter: grayscale(85%);
   height: 80vh;
-  width: 100vw;
+  width: 100%;
+}
+
+.landing-page h1 {
+  position: absolute;
+  color: limegreen;
+  font-size: 50px;
+  font-family: "CoffeetinInitials";
+  font-weight: 100;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 /*# sourceMappingURL=Landing.css.map */

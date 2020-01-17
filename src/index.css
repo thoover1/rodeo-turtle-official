@@ -439,3 +439,14 @@ textarea {
   color: #000;
   padding: 0.2em 0;
 }
+
+@font-face {
+  font-family: "WestTest";
+  src: local("WestTest"), url(./WestTest-MZ7x.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "CoffeetinInitials";
+  src: local("CoffeetinInitials"),
+    url(./CoffeetinInitials-YXJ2.ttf) format("truetype");
+}
