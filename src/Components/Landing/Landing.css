@@ -2,7 +2,8 @@
   width: 100vw;
 }
 
-.landing-page img {
+.landing-page .landing-main img {
+  position: relative;
   -o-object-fit: cover;
      object-fit: cover;
   -webkit-filter: grayscale(85%);
@@ -11,9 +12,9 @@
   width: 100%;
 }
 
-.landing-page h1 {
+.landing-page .landing-main h2 {
   position: absolute;
-  color: limegreen;
+  color: lime;
   font-size: 50px;
   font-family: "CoffeetinInitials";
   font-weight: 100;
@@ -21,5 +22,74 @@
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.landing-page .landing-about {
+  height: 70vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Cinzel", serif;
+  font-weight: 900;
+}
+
+.landing-page .landing-about section {
+  height: 80%;
+  width: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.landing-page .landing-about section h3 {
+  font-size: 50px;
+}
+
+.landing-page .landing-about section p {
+  font-size: 30px;
+}
+
+.landing-page .landing-about section a {
+  width: 200px;
+  height: 40px;
+  font-size: 22px;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  background-color: limegreen;
+  border: solid;
+  border-color: limegreen;
+  border-radius: 4px;
+}
+
+.landing-page .landing-about img {
+  height: 60vh;
+  width: auto;
+  -webkit-filter: grayscale(45%);
+          filter: grayscale(45%);
 }
 /*# sourceMappingURL=Landing.css.map */
