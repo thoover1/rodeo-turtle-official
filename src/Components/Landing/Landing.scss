@@ -8,8 +8,9 @@
   // position: relative;
   // overflow: hidden;
   .landing-main {
+    width: 100%;
     img {
-      position: relative;
+      // position: relative;
       // overflow: hidden;
       object-fit: cover;
       filter: grayscale(85%);
@@ -75,8 +76,47 @@
     }
     img {
       height: 60vh;
+      width: 100%;
       width: auto;
       filter: grayscale(45%);
+    }
+  }
+  .landing-gallery {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    // border: solid;
+    // border-color: red;
+    h1 {
+      font-family: "Cinzel", serif;
+      font-weight: 900;
+      text-align: center;
+      // border: solid;
+      // border-color: green;
+      height: 10%;
+      width: 100%;
+      font-size: 50px;
+    }
+    section {
+      // border: solid;
+      // border-color: blue;
+      height: 90%;
+      width: 90%;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      img {
+        filter: grayscale(85%);
+        padding: 20px;
+        width: 30%;
+        height: 42%;
+      }
+      img:hover {
+        filter: grayscale(25%);
+      }
     }
   }
 }

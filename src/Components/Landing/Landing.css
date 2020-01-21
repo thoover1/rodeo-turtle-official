@@ -2,8 +2,11 @@
   width: 100vw;
 }
 
+.landing-page .landing-main {
+  width: 100%;
+}
+
 .landing-page .landing-main img {
-  position: relative;
   -o-object-fit: cover;
      object-fit: cover;
   -webkit-filter: grayscale(85%);
@@ -88,8 +91,61 @@
 
 .landing-page .landing-about img {
   height: 60vh;
+  width: 100%;
   width: auto;
   -webkit-filter: grayscale(45%);
           filter: grayscale(45%);
+}
+
+.landing-page .landing-gallery {
+  width: 100vw;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.landing-page .landing-gallery h1 {
+  font-family: "Cinzel", serif;
+  font-weight: 900;
+  text-align: center;
+  height: 10%;
+  width: 100%;
+  font-size: 50px;
+}
+
+.landing-page .landing-gallery section {
+  height: 90%;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.landing-page .landing-gallery section img {
+  -webkit-filter: grayscale(85%);
+          filter: grayscale(85%);
+  padding: 20px;
+  width: 30%;
+  height: 42%;
+}
+
+.landing-page .landing-gallery section img:hover {
+  -webkit-filter: grayscale(25%);
+          filter: grayscale(25%);
 }
 /*# sourceMappingURL=Landing.css.map */
