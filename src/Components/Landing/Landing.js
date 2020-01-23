@@ -18,7 +18,6 @@ export default function Landing() {
             and a newborn. We are here to serve you. My turtles spurs are the
             bomb and you know you want them. Enough words now. Buy my shit.
           </p>
-
           <p>
             We like rodeos and turtles and metal and wood and trucks and beer
             other stuff that I'm just trying to fill the page with. We have dogs
@@ -38,8 +37,16 @@ export default function Landing() {
           <img src="https://images.pexels.com/photos/313776/pexels-photo-313776.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
           <img src="https://images.pexels.com/photos/227577/pexels-photo-227577.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
           <img src="https://images.pexels.com/photos/1094770/pexels-photo-1094770.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+          <img src="https://images.pexels.com/photos/175709/pexels-photo-175709.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+          <img src="https://images.pexels.com/photos/1094767/pexels-photo-1094767.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
           <img src="https://images.pexels.com/photos/313773/pexels-photo-313773.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+          <img src="https://images.pexels.com/photos/1094767/pexels-photo-1094767.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+          <img src="https://images.pexels.com/photos/175709/pexels-photo-175709.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+          <img src="https://images.pexels.com/photos/313776/pexels-photo-313776.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+          <img src="https://images.pexels.com/photos/227577/pexels-photo-227577.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
         </section>
+
+        <a>More From Our Gallery</a>
       </div>
     </div>
   );
