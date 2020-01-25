@@ -133,3 +133,7 @@ table {
   src: local("CoffeetinInitials"),
     url(./CoffeetinInitials-YXJ2.ttf) format("truetype");
 }
+@font-face {
+  font-family: "Smokum";
+  src: local("Smokum"), url(./Smokum-Regular.ttf) format("truetype");
+}

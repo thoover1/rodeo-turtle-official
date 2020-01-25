@@ -10,6 +10,8 @@
           justify-content: center;
   font-family: "Cinzel", serif;
   font-family: "WestTest";
+  font-family: "Smokum";
+  font-weight: 100;
   width: 100vw;
 }
 
@@ -60,7 +62,7 @@
 .header-main .header-contents .header-top-contents .header-right ul p,
 .header-main .header-contents .header-top-contents .header-right ul li {
   padding-left: 80px;
-  font-size: 21px;
+  font-size: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

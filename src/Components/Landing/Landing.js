@@ -7,7 +7,7 @@ export default function Landing() {
     <div className="landing-page">
       <div className="landing-main">
         <img src={landingBackground}></img>
-        <h2>Rodeo Turtle, LLC</h2>
+        <h2>Rodeo Turtle</h2>
       </div>
       <div className="landing-about">
         <section>

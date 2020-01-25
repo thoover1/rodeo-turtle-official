@@ -9,9 +9,10 @@ $primaryColor: limegreen;
   justify-content: center;
   font-family: "Cinzel", serif;
   font-family: "WestTest";
+  font-family: "Smokum";
   // font-family: "CoffeetinInitials";
   // font-family: "Ewert", cursive;
-  // font-weight: 900;
+  font-weight: 100;
   width: 100vw;
   .header-contents {
     height: 15vh;
@@ -54,7 +55,7 @@ $primaryColor: limegreen;
           li {
             // use padding if johnny likes second mockup with contacts page
             padding-left: 80px;
-            font-size: 21px;
+            font-size: 40px;
             // border: dotted;
             // border-color: red;
             display: flex;

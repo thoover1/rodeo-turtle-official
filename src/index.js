@@ -6,6 +6,7 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "./WestTest-MZ7x.ttf";
 import "./CoffeetinInitials-YXJ2.ttf";
+import "./Smokum-Regular.ttf";
 
 ReactDOM.render(
   <HashRouter>
