@@ -1,0 +1,14 @@
+.CarouselLanding {
+  width: 100%;
+  height: 85vh;
+  // z-index: 2;
+  img {
+    // position: relative;
+    // overflow: hidden;
+    // object-fit: cover;
+    filter: grayscale(85%);
+    height: 100%;
+    width: 100%;
+    // z-index: 1;
+  }
+}

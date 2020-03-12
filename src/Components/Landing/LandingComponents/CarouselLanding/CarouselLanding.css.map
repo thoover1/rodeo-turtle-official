@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAC;EACf,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CAWb;;AAbD,AAIE,gBAJc,CAId,GAAG,CAAC;EAIF,MAAM,EAAE,cAAc;EACtB,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;CAEZ",
+    "sources": [
+        "CarouselLanding.scss"
+    ],
+    "names": [],
+    "file": "CarouselLanding.css"
+}

@@ -1,5 +1,25 @@
+.landing-page {
+  width: 100%;
+}
+
+.landing-page .landing-main {
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.landing-page .landing-main h2 {
+  position: absolute;
+  color: lime;
+  font-size: 70px;
+  font-family: "CoffeetinInitials";
+  font-weight: 100;
+  top: 18%;
+  left: 2%;
+}
+
 .header-main {
-  background-color: white;
+  background-color: #e9e9e9;
   background-position: center;
   background-repeat: no-repeat;
   display: -webkit-box;
@@ -12,12 +32,12 @@
   font-family: "WestTest";
   font-family: "Smokum";
   font-weight: 100;
-  width: 100vw;
+  width: 100%;
 }
 
 .header-main .header-contents {
   height: 15vh;
-  width: 98%;
+  width: 97%;
 }
 
 .header-main .header-contents .header-top-contents {

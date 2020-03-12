@@ -1,10 +1,13 @@
-// $primaryColor: rgb(0, 117, 10);
 $primaryColor: limegreen;
+@import "../Landing/Landing.scss";
 
 .header-main {
-  background-color: white;
+  background-color: $backgroundColor;
+  // background: url(https://png.pngtree.com/thumb_back/fw800/background/20190828/pngtree-artistic-wooden-panel-background-with-brown-planks-image_310037.jpg);
   background-position: center;
   background-repeat: no-repeat;
+  // background-size: 100vw 18vh;
+  // background-size: cover;
   display: flex;
   justify-content: center;
   font-family: "Cinzel", serif;
@@ -13,10 +16,10 @@ $primaryColor: limegreen;
   // font-family: "CoffeetinInitials";
   // font-family: "Ewert", cursive;
   font-weight: 100;
-  width: 100vw;
+  width: 100%;
   .header-contents {
     height: 15vh;
-    width: 98%;
+    width: 97%;
     // border: dotted;
     // border-color: lightcoral;
     .header-top-contents {
@@ -61,6 +64,7 @@ $primaryColor: limegreen;
             display: flex;
             justify-content: center;
             align-items: center;
+            // color: white;
           }
           i {
             margin-left: 5px;
@@ -69,6 +73,7 @@ $primaryColor: limegreen;
             // font-weight: 100;
             color: $primaryColor;
             cursor: pointer;
+            // text-decoration: underline $primaryColor;
           }
           .contact-nav {
             padding: 5px 30px;

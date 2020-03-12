@@ -137,3 +137,7 @@ table {
   font-family: "Smokum";
   src: local("Smokum"), url(./Smokum-Regular.ttf) format("truetype");
 }
+
+body {
+  width: 100%;
+}

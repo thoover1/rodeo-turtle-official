@@ -35,7 +35,7 @@ export default class Header extends Component {
                 <li className="goods">
                   Goods & Gear
                   {/* <i class="fas fa-chevron-down"></i> */}
-                  <i class="fas fa-caret-down"></i>
+                  <i className="fas fa-caret-down"></i>
                 </li>
                 <li>Gallery</li>
                 <li>Turtle Spurs</li>

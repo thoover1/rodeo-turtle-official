@@ -6,146 +6,22 @@ $backgroundColor: rgb(233, 233, 233);
   // display: flex;
   // justify-content: center;
   // align-items: center;
-  width: 100vw;
+  width: 100%;
   // position: relative;
   // overflow: hidden;
   .landing-main {
     width: 100%;
     height: 80vh;
     overflow: hidden;
-    img {
-      // position: relative;
-      // overflow: hidden;
-      object-fit: cover;
-      filter: grayscale(85%);
-      height: 100%;
-      width: 100%;
-    }
     h2 {
       position: absolute;
       color: rgb(0, 255, 0);
       font-size: 70px;
       font-family: "CoffeetinInitials";
       font-weight: 100;
-      top: 45%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-  }
-  .landing-about {
-    height: 70vh;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: "Cinzel", serif;
-    font-weight: 900;
-    overflow: hidden;
-    background-color: $backgroundColor;
-    section {
-      height: 80%;
-      width: 50vw;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
-      h3 {
-        font-family: "Smokum";
-        font-size: 60px;
-      }
-      p {
-        font-size: 30px;
-      }
-      a {
-        width: 200px;
-        height: 40px;
-        font-size: 22px;
-        text-decoration: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        background-color: limegreen;
-        border: solid;
-        border-color: limegreen;
-        border-radius: 4px;
-      }
-      a:hover {
-        color: limegreen;
-        background-color: white;
-        cursor: pointer;
-      }
-    }
-    img {
-      height: 60vh;
-      width: 100%;
-      width: auto;
-      filter: grayscale(100%);
-    }
-  }
-  .landing-gallery {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    // border: solid;
-    // border-color: red;
-    overflow: hidden;
-    background-color: $backgroundColor;
-    h1 {
-      font-family: "Cinzel", serif;
-      font-family: "Smokum";
-      font-weight: 900;
-      text-align: center;
-      // border: solid;
-      // border-color: green;
-      height: 10%;
-      width: 100%;
-      font-size: 60px;
-      padding-top: 30px;
-    }
-    section {
-      // border: solid;
-      // border-color: blue;
-      height: 90%;
-      width: 86%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      img {
-        filter: grayscale(100%);
-        padding-top: 20px;
-        width: auto;
-        height: 25vh;
-      }
-      img:hover {
-        filter: grayscale(25%);
-        // transform: scale(1.03);
-      }
-    }
-    a {
-      font-family: "Cinzel", serif;
-      font-weight: 900;
-      width: 350px;
-      height: 40px;
-      font-size: 22px;
-      text-decoration: none;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: white;
-      background-color: limegreen;
-      border: solid;
-      border-color: limegreen;
-      border-radius: 4px;
-      margin: 30px 0;
-    }
-    a:hover {
-      color: limegreen;
-      background-color: white;
-      cursor: pointer;
+      top: 18%;
+      left: 2%;
+      // transform: translate(0%, 0%);
     }
   }
 }
