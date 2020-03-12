@@ -12,7 +12,7 @@ export default function CarouselLanding() {
       autoPlay={10000}
       animationSpeed={2000}
       infinite
-      className="CarouselLanding"
+      className="BrainhubCarousel"
     >
       <img className="CLImages" src={landingBackground} />
       <img className="CLImages" src={landingBackground2} />
