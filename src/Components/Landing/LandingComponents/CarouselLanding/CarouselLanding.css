@@ -9,7 +9,6 @@
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  z-index: 1;
 }
 
 .BrainhubCarouselItem.BrainhubCarouselItem--clickable {
@@ -40,7 +39,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  z-index: 1;
   height: 85vh;
   width: 100%;
 }
@@ -94,7 +92,6 @@
   padding: 0;
   font-size: 0;
   line-height: 0;
-  z-index: 2;
 }
 
 .BrainhubCarousel__dots.BrainhubCarousel__dots--isRTL {
@@ -163,7 +160,6 @@
   font-size: 0;
   line-height: 0;
   background-color: #8f8f8f;
-  z-index: 2;
   height: 100%;
 }
 
