@@ -128,14 +128,14 @@
   top: 50%;
   left: 50%;
   border-style: solid;
-  border-color: #fff;
+  border-color: limegreen;
   border-width: 3px 3px 0 0;
   padding: 5px;
   transition: 0.3s;
   font-size: 0;
 }
 .BrainhubCarousel__arrows:hover {
-  background-color: limegreen !important;
+  background-color: white;
   opacity: 70%;
 }
 .BrainhubCarousel__arrows:hover span {
@@ -151,11 +151,11 @@
   font-size: 0;
 }
 .BrainhubCarousel__arrows:hover:enabled {
-  background-color: limegreen;
+  background-color: white;
   opacity: 70%;
 }
 .BrainhubCarousel__arrows:hover:enabled span {
-  border-color: #fff;
+  border-color: limegreen;
   margin: 0;
 }
 .BrainhubCarousel__arrows:disabled {
