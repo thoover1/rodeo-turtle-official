@@ -201,7 +201,7 @@
 }
 
 .BrainhubCarousel__arrows:hover:enabled {
-  background-color: limegreen !important;
+  background-color: limegreen;
   opacity: 70%;
 }
 
