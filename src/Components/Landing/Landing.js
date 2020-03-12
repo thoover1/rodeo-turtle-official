@@ -1,6 +1,4 @@
 import React from "react";
-// import landingBackground from "../../assets/Plasma-Cutter_5";
-// import landingBackground2 from "../../assets/landingBackground2.jpg";
 import "./Landing.scss";
 import AboutLanding from "./LandingComponents/AboutLanding/AboutLanding";
 import GalleryLanding from "./LandingComponents/GalleryLanding/GalleryLanding";
@@ -11,7 +9,7 @@ export default function Landing() {
     <div className="landing-page">
       <div className="landing-main">
         <CarouselLanding />
-        <h2>Rodeo Turtle</h2>
+        {/* <h2>Rodeo Turtle</h2> */}
       </div>
       <AboutLanding />
       <GalleryLanding />
