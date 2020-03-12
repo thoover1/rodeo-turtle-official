@@ -182,7 +182,7 @@
 }
 
 .BrainhubCarousel__arrows:hover {
-  background-color: limegreen;
+  background-color: limegreen !important;
   opacity: 70%;
 }
 
@@ -201,7 +201,7 @@
 }
 
 .BrainhubCarousel__arrows:hover:enabled {
-  background-color: limegreen;
+  background-color: limegreen !important;
   opacity: 70%;
 }
 
