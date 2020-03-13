@@ -76,6 +76,13 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-main .footer-contents .footer-info ul {
+  height: 50%;
 }
 
 .footer-main .footer-contents .footer-info ul li h1 {
@@ -99,6 +106,10 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.footer-main .footer-contents .footer-contact ul {
+  height: 50%;
 }
 
 .footer-main .footer-contents .footer-contact ul li h1 {

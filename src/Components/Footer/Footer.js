@@ -15,14 +15,6 @@ export default function Footer() {
         <div className="footer-info">
           <ul>
             <li>
-              <h1>Location</h1>
-            </li>
-            <li>
-              <h3>Windsor, CO</h3>
-            </li>
-          </ul>
-          <ul>
-            <li>
               <h1>Hours of Operation</h1>
             </li>
             <li>
@@ -30,6 +22,14 @@ export default function Footer() {
             </li>
             <li>
               <h3>9:00AM - 5:00PM</h3>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <h1>Location</h1>
+            </li>
+            <li>
+              <h3>Windsor, CO</h3>
             </li>
           </ul>
         </div>
