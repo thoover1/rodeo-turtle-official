@@ -11,9 +11,10 @@ export default function CarouselLanding() {
   return (
     <Carousel
       // arrows
-      autoPlay={3000}
+      autoPlay={6000}
       animationSpeed={2000}
       infinite
+      stopAutoPlayOnHover
       className="BrainhubCarousel"
     >
       <img className="CLImages" src={landingBackground} />
