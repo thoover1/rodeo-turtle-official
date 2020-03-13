@@ -3,7 +3,7 @@
 .footer-main {
   height: 58vh;
   width: 100%;
-  background-color: white;
+  background-color: black;
   // background: url(https://cdn.hipwallpaper.com/i/66/66/zSjToy.jpg);
   // background-repeat: no-repeat;
   // background-size: cover;
@@ -21,6 +21,7 @@
   flex-direction: column;
   font-weight: 100;
   position: relative;
+  color: white;
   .footer-title {
     h1 {
       font-size: 80px;
@@ -30,7 +31,7 @@
   .footer-contents h2,
   h3,
   i {
-    color: rgb(70, 70, 70);
+    color: rgb(139, 139, 139);
     padding-left: 15px;
   }
   .footer-contents {
@@ -104,7 +105,7 @@
           color: #38a1f3;
         }
         .fa-instagram-square {
-          color: #231f20;
+          color: #231f20 transparent;
         }
         .fa-youtube-square {
           color: #ed3833;

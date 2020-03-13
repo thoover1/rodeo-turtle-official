@@ -21,7 +21,7 @@
 .footer-main {
   height: 58vh;
   width: 100%;
-  background-color: white;
+  background-color: black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -36,6 +36,7 @@
           flex-direction: column;
   font-weight: 100;
   position: relative;
+  color: white;
 }
 
 .footer-main .footer-title h1 {
@@ -46,7 +47,7 @@
 .footer-main .footer-contents h2,
 .footer-main h3,
 .footer-main i {
-  color: #464646;
+  color: #8b8b8b;
   padding-left: 15px;
 }
 
@@ -148,7 +149,7 @@
 }
 
 .footer-main .footer-contents .footer-contact .media-icons .fa-instagram-square {
-  color: #231f20;
+  color: #231f20 transparent;
 }
 
 .footer-main .footer-contents .footer-contact .media-icons .fa-youtube-square {
