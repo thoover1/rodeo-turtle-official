@@ -1,8 +1,325 @@
-.footer-main {
-  height: 38vh;
+.landing-page {
+  height: 100%;
+}
+
+.landing-page .landing-main {
   width: 100%;
-  background: url(https://cdn.hipwallpaper.com/i/66/66/zSjToy.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 80vh;
+  background-color: #e9e9e9;
+}
+
+.landing-page .landing-main h2 {
+  position: absolute;
+  color: lime;
+  font-size: 70px;
+  font-family: "CoffeetinInitials";
+  font-weight: 100;
+  top: 18%;
+  left: 17%;
+}
+
+.footer-main {
+  height: 58vh;
+  width: 100%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-weight: 100;
+  position: relative;
+}
+
+.footer-main .footer-title h1 {
+  font-size: 80px;
+  font-family: "Smokum";
+}
+
+.footer-main .footer-contents h2,
+.footer-main h3,
+.footer-main i {
+  color: #464646;
+  padding-left: 15px;
+}
+
+.footer-main .footer-contents {
+  height: 70%;
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px;
+}
+
+.footer-main .footer-contents .footer-info {
+  height: 100%;
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-main .footer-contents .footer-info ul li h1 {
+  font-size: 30px;
+  font-weight: 900;
+  padding: 25px 0px;
+}
+
+.footer-main .footer-contents .footer-info ul li h3 {
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.footer-main .footer-contents .footer-contact {
+  height: 100%;
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-main .footer-contents .footer-contact ul li h1 {
+  font-size: 30px;
+  font-weight: 900;
+  padding: 25px 0px;
+}
+
+.footer-main .footer-contents .footer-contact ul li h2 {
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.footer-main .footer-contents .footer-contact ul li h3 {
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.footer-main .footer-contents .footer-contact h1 {
+  font-size: 30px;
+  font-weight: 900;
+  padding: 25px 0px;
+}
+
+.footer-main .footer-contents .footer-contact .media-icons {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-main .footer-contents .footer-contact .media-icons i {
+  font-size: 40px;
+}
+
+.footer-main .footer-contents .footer-contact .media-icons .fa-facebook-square {
+  color: #3b5998;
+}
+
+.footer-main .footer-contents .footer-contact .media-icons .fa-twitter-square {
+  color: #38a1f3;
+}
+
+.footer-main .footer-contents .footer-contact .media-icons .fa-instagram-square {
+  color: #231f20;
+}
+
+.footer-main .footer-contents .footer-contact .media-icons .fa-youtube-square {
+  color: #ed3833;
+}
+
+.footer-main .footer-contents .footer-contact .media-icons .fa-pinterest-square {
+  color: #bd081c;
+}
+
+.footer-main .footer-contents .footer-newsletter {
+  height: 100%;
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-main .footer-contents .footer-newsletter form {
+  height: 100%;
+}
+
+.footer-main .footer-contents .footer-newsletter form h3 {
+  font-size: 16px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+}
+
+.footer-main .footer-contents .footer-newsletter form .footer-form {
+  height: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-main .footer-contents .footer-newsletter form .footer-form input {
+  width: 70%;
+  height: 25px;
+}
+
+.footer-main .footer-contents .footer-newsletter form .footer-form input:focus {
+  border: solid limegreen;
+}
+
+.footer-main .footer-contents .footer-newsletter form .footer-form button {
+  padding: 10px;
+  width: 30%;
+  background-color: limegreen;
+  border: limegreen;
+  -webkit-box-shadow: 4px 4px rgba(50, 205, 50, 0.459);
+          box-shadow: 4px 4px rgba(50, 205, 50, 0.459);
+  color: white;
+  font-family: "Cinzel", serif;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.footer-main .footer-contents .footer-newsletter form .footer-form button:hover {
+  padding: 8px;
+  background-color: white;
+  color: limegreen;
+  border: solid limegreen;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  cursor: pointer;
+}
+
+.footer-main .footer-contents .footer-newsletter form .footer-form button:active {
+  background-color: limegreen;
+  border: limegreen;
+  color: white;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.footer-main .footer-contents .footer-newsletter form .footer-form button:focus {
+  outline: none;
+}
+
+.footer-main .footer-contents .footer-newsletter h1 {
+  font-size: 30px;
+  font-weight: 900;
+  padding: 25px 0px;
+}
+
+.footer-main .footer-contents .footer-right:link {
+  color: black;
+}
+
+.footer-main .footer-contents .footer-right:hover {
+  color: limegreen;
+}
+
+.footer-main .footer-contents .footer-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 100%;
+  width: 12%;
+  text-decoration: none;
+}
+
+.footer-main .footer-contents .footer-right .speech-bubble-ds {
+  cursor: pointer;
+  background: #efefef;
+  border: 1px solid #a7a7a7;
+  border-radius: 4px;
+  -webkit-box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);
+  font-size: 1.2rem;
+  line-height: 1.3;
+  margin: 0 auto 90px;
+  max-width: 400px;
+  padding: 15px;
+  position: relative;
+}
+
+.footer-main .footer-contents .footer-right .speech-bubble-ds p {
+  margin-bottom: 10px;
+}
+
+.footer-main .footer-contents .footer-right .speech-bubble-ds p:last-of-type {
+  margin-bottom: 0;
+}
+
+.footer-main .footer-contents .footer-right .speech-bubble-ds-arrow {
+  border-left: 21px solid transparent;
+  border-top: 20px solid rgba(0, 0, 0, 0.2);
+  bottom: -25px;
+  position: absolute;
+  right: 0px;
+}
+
+.footer-main .footer-contents .footer-right .speech-bubble-ds-arrow::before {
+  border-left: 23px solid transparent;
+  border-top: 23px solid #a7a7a7;
+  bottom: 2px;
+  content: "";
+  position: absolute;
+  right: 5px;
+}
+
+.footer-main .footer-contents .footer-right .speech-bubble-ds-arrow::after {
+  border-left: 21px solid transparent;
+  border-top: 21px solid #efefef;
+  bottom: 4px;
+  content: "";
+  position: absolute;
+  right: 6px;
+}
+
+.footer-main .footer-contents .footer-right img {
+  cursor: pointer;
+  height: 30%;
+  width: auto;
 }
 /*# sourceMappingURL=Footer.css.map */

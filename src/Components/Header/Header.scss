@@ -2,11 +2,12 @@ $primaryColor: limegreen;
 @import "../Landing/Landing.scss";
 
 .header-main {
-  background-color: $backgroundColor;
+  background-color: white;
   // background: url(https://png.pngtree.com/thumb_back/fw800/background/20190828/pngtree-artistic-wooden-panel-background-with-brown-planks-image_310037.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
+  // background-position: center;
+  // background-repeat: no-repeat;
   // background-size: 100vw 18vh;
+  // filter: sepia(0.3);
   // background-size: cover;
   display: flex;
   justify-content: center;
@@ -20,7 +21,7 @@ $primaryColor: limegreen;
   position: fixed;
   z-index: 100000;
   .header-contents {
-    height: 15vh;
+    height: 14.5vh;
     width: 97%;
     // border: dotted;
     // border-color: lightcoral;
@@ -43,6 +44,7 @@ $primaryColor: limegreen;
         width: 80%;
         ul {
           color: black;
+          // color: white;
           display: flex;
           // change justify content to flex-end if johnny likes second mockup with contacts page (view line 51 also)
           justify-content: flex-end;

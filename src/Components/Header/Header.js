@@ -6,7 +6,7 @@ import "./Header.css";
 export default class Header extends Component {
   render() {
     return (
-      <div className="header-main">
+      <div className="top header-main">
         <div className="header-contents">
           <div className="header-top-contents">
             <span className="header-left">
