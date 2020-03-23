@@ -21,7 +21,7 @@ export default function GalleryLanding() {
         <img src="https://images.pexels.com/photos/227577/pexels-photo-227577.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
       </section>
       <NavLink to="/gallery">
-        <a>More From Our Gallery</a>
+        <p>More From Our Gallery</p>
       </NavLink>
     </div>
   );

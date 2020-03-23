@@ -51,19 +51,19 @@ export default function Footer() {
           <h1>Follow Us</h1>
           <div className="media-icons">
             <a href="">
-              <i class="fab fa-facebook-square"></i>
+              <i className="fab fa-facebook-square"></i>
             </a>
             <a href="">
-              <i class="fab fa-twitter-square"></i>
+              <i className="fab fa-twitter-square"></i>
             </a>
             <a href="">
-              <i class="fab fa-instagram-square"></i>
+              <i className="fab fa-instagram-square"></i>
             </a>
             <a href="">
-              <i class="fab fa-youtube-square"></i>
+              <i className="fab fa-youtube-square"></i>
             </a>
             <a href="">
-              <i class="fab fa-pinterest-square"></i>
+              <i className="fab fa-pinterest-square"></i>
             </a>
           </div>
         </div>
@@ -81,11 +81,11 @@ export default function Footer() {
           </form>
         </div>
         <a href="#top" className="footer-right">
-          <div class="speech-bubble-ds">
+          <div className="speech-bubble-ds">
             <p>
               <strong>Back to Top</strong>
             </p>
-            <div class="speech-bubble-ds-arrow"></div>
+            <div className="speech-bubble-ds-arrow"></div>
           </div>
           <img src="https://pngimage.net/wp-content/uploads/2018/06/red-beard-png-.png" />
         </a>
