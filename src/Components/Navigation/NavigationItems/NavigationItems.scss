@@ -1,0 +1,22 @@
+.NavigationItems {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+  .fa-caret-down {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 500px) {
+  .NavigationItems {
+    align-items: center;
+    flex-direction: row;
+    .fa-caret-down {
+      visibility: visible;
+    }
+  }
+}
