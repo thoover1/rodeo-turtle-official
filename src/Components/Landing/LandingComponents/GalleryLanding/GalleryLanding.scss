@@ -27,7 +27,6 @@
     flex-wrap: wrap;
     // align-content: center;
     .image-container {
-      // position: relative;
       border: solid 5px;
       border-color: black;
       width: 24%;
@@ -37,8 +36,6 @@
       top: 0;
       left: 0;
       .fa-plus {
-        // object-fit: cover;
-        // display: none;
         position: absolute;
         color: black;
         filter: grayscale(50%);
