@@ -13,6 +13,7 @@
       -ms-flex-align: start;
           align-items: flex-start;
   height: 100%;
+  letter-spacing: 3px;
 }
 
 .NavigationItems .fa-caret-down {
