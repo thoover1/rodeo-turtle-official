@@ -1,8 +1,70 @@
 import React from 'react'
+import './Contact.scss'
 
 export default function Contact() {
     return (
-        <div>
+        <div className='Contact'>
+            <p>contact111111111 page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
+            <p>contact page</p>
             <p>contact page</p>
         </div>
     )

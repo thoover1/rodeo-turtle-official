@@ -1,8 +1,78 @@
 import React from 'react'
+import './Gallery.scss'
 
 export default function Gallery() {
     return (
-        <div>
+        <div className='Gallery'>
+            <p>gallery111111111 page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
+            <p>gallery page</p>
             <p>gallery page</p>
         </div>
     )

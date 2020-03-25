@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 // import Logo from "../../assets/logo.png";
 import "./Footer.scss";
 
-export default function Footer() {
+const Footer = () => {
+    useEffect(() => {
+      topScroll()
+      }, []);
+      const topScroll = () => {
+        window.scrollTo(0, 0);
+      }
   return (
     <div className="footer-main">
       <div className="footer-title">
@@ -80,9 +86,9 @@ export default function Footer() {
             </div>
           </form>
         </div>
-        <a href="#top" className="footer-right">
+        <a className="footer-right">
           <div className="speech-bubble-ds">
-            <p>
+            <p onClick={() => topScroll()}>
               <strong>Back to Top</strong>
             </p>
             <div className="speech-bubble-ds-arrow"></div>
@@ -93,3 +99,5 @@ export default function Footer() {
     </div>
   );
 }
+
+export default Footer;

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Aux from "../Auxillary/Auxillary";
 import Toolbar from "../../Components/Navigation/Toolbar/Toolbar";
-// import Header from "../../Components/Header/Header";
 import SideDrawer from "../../Components/Navigation/SideDrawer/SideDrawer";
 import Footer from "../../Components/Footer/Footer";
 import "./AppLayout.scss";
@@ -20,7 +19,6 @@ const AppLayout = props => {
   return (
     <Aux>
       <Toolbar drawerToggleClick={sideDrawerToggleHandler} />
-      {/* <Header drawerToggleClick={sideDrawerToggleHandler} /> */}
       <SideDrawer
         closed={sideDrawerClosedHandler}
         open={sideDrawerIsVisible}

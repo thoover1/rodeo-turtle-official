@@ -5,7 +5,7 @@ import "./Header.css";
 
 const Header = props => {
   return (
-    <div className="top header-main">
+    <div className="header-main">
       <div className="header-contents">
         <div className="header-top-contents">
           <span className="header-left">
