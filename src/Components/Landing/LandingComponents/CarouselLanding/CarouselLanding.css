@@ -1,12 +1,7 @@
 .CarouselLanding {
-  height: 75vh;
+  height: 80vh;
   background: url("../../../../assets/Plasma-Cutter_5") center no-repeat;
   -webkit-filter: grayscale(0.9);
           filter: grayscale(0.9);
-}
-
-.CarouselLanding img {
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 /*# sourceMappingURL=CarouselLanding.css.map */
