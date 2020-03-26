@@ -7,6 +7,8 @@ import landingBackground4 from "../../../../assets/landingBackground4.jpg";
 // import "@brainhubeu/react-carousel/lib/style.css";
 import "./CarouselLanding.scss";
 
+const images = [landingBackground, landingBackground2, landingBackground3, landingBackground4]
+
 export default function CarouselLanding() {
   return (
     // <Carousel

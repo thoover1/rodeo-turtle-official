@@ -9,13 +9,15 @@ $backgroundColor: rgb(233, 233, 233);
     width: 100%;
     overflow: hidden;
     h2 {
+      letter-spacing: 5px;
       position: absolute;
       color: rgb(0, 255, 0);
-      font-size: 70px;
+      font-size: 100px;
       font-family: "CoffeetinInitials";
       font-weight: 100;
-      top: 18%;
-      left: 17%;
+      top: 46%;
+      left: 35%;
+      transform: translate(-10%, -50%)
     }
   .fa-arrow-down {
     position: absolute;
@@ -23,8 +25,8 @@ $backgroundColor: rgb(233, 233, 233);
     left: 50%;
     padding: 0;
     background: transparent;
-    font-size: 55px;
-    animation: anim 3s infinite;
+    font-size: 35px;
+    animation: anim 2s infinite;
     color: limegreen;
   }
   }
