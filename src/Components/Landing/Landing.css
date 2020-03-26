@@ -1,11 +1,11 @@
 .landing-page {
   height: 100%;
+  margin-top: 17vh;
 }
 
 .landing-page .landing-main {
   width: 100%;
-  height: 80vh;
-  background-color: #e9e9e9;
+  overflow: hidden;
 }
 
 .landing-page .landing-main h2 {

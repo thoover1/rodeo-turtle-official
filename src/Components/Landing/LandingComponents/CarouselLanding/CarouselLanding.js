@@ -26,7 +26,7 @@ export default function CarouselLanding() {
     //   {/* <Dots /> */}
     // </Carousel>
     <div className="CarouselLanding">
-      <img ClassName="CLImages" src={landingBackground}></img>
+      {/* <img ClassName="CLImages" src={landingBackground}></img> */}
       {/* <img ClassName="CLImages" src={landingBackground2}></img> */}
     </div>
   );

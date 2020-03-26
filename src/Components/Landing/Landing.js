@@ -10,6 +10,7 @@ export default function Landing() {
       <div className="landing-main">
         <CarouselLanding />
         <h2>Rodeo Turtle</h2>
+        <i class="fas fa-arrow-down"></i>
       </div>
       <AboutLanding />
       <GalleryLanding />
