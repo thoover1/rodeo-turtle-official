@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useInterval } from "react";
 import landingBackground from "../../../../assets/Plasma-Cutter_5";
 import landingBackground2 from "../../../../assets/landingBackground2.jpg";
 import landingBackground3 from "../../../../assets/landingBackground3.jpg";
@@ -7,9 +7,17 @@ import landingBackground4 from "../../../../assets/landingBackground4.jpg";
 // import "@brainhubeu/react-carousel/lib/style.css";
 import "./CarouselLanding.scss";
 
-const images = [landingBackground, landingBackground2, landingBackground3, landingBackground4]
+// can eventually link this to pull from API so images can constantly be uploaded (e.g. AWS S3 bucket, etc.)
+const imageReel = [landingBackground, landingBackground2, landingBackground3, landingBackground4]
 
-export default function CarouselLanding() {
+const CarouselLanding = () => {
+  let [images, setImages] = useState(imageReel)
+
+// use this method to iterate through imageReel to change background image via infinite loop
+  // useInterval(() => {
+
+  // }, 1000)
+
   return (
     // <Carousel
     //   // arrows
@@ -33,3 +41,5 @@ export default function CarouselLanding() {
     </div>
   );
 }
+
+export default CarouselLanding;
