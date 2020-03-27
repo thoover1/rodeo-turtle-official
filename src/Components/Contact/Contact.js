@@ -32,14 +32,24 @@ export default function Contact() {
           <form>
             <input type="text" placeholder="Name" required />
             <input type="email" placeholder="Email" required />
-            <input type="tel" placeholder="Phone Number (optional)" />
-            <input type="text" placeholder="Reason For Contacting" required />
             <input
+              type="tel"
+              placeholder="Phone Number (Format: 123-456-7890)"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            />
+            <input type="text" placeholder="Reason For Contacting" required />
+            {/* <input
               className="message-field"
               type="text"
               placeholder="Type Your Message Here..."
               required
-            />
+            /> */}
+            <textarea
+              className="message-field"
+              placeholder="Type Your Message Here..."
+              required
+              autoFocus
+            ></textarea>
             <button>Fire Away!</button>
           </form>
         </div>
