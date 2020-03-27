@@ -1,4 +1,24 @@
 .GoodsNGear {
   margin-top: 17vh;
 }
+
+.GoodsNGear h1 {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.GoodsNGear h2 {
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.GoodsNGear h3 {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.GoodsNGear h4 {
+  font-size: 15px;
+  padding-bottom: 20px;
+}
 /*# sourceMappingURL=GoodsNGear.css.map */
