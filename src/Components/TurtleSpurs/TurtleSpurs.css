@@ -1,4 +1,217 @@
+.landing-page {
+  height: 100%;
+  margin-top: 17vh;
+  margin-bottom: -1px;
+  background-color: #e9e9e9;
+}
+
+.landing-page .landing-main {
+  width: 100%;
+  overflow: hidden;
+}
+
+.landing-page .landing-main h2 {
+  letter-spacing: 5px;
+  position: absolute;
+  color: lime;
+  font-size: 100px;
+  font-family: "CoffeetinInitials";
+  font-weight: 100;
+  top: 46%;
+  left: 35%;
+  -webkit-transform: translate(-10%, -50%);
+          transform: translate(-10%, -50%);
+}
+
+.landing-page .landing-main .fa-arrow-down {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  padding: 0;
+  background: transparent;
+  font-size: 35px;
+  -webkit-animation: anim 2s infinite;
+          animation: anim 2s infinite;
+  color: limegreen;
+}
+
+@-webkit-keyframes anim {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  20% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  50% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+  80% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes anim {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  20% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  50% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+  80% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
 .TurtleSpurs {
   margin-top: 17vh;
+  background-color: #e9e9e9;
+  padding-bottom: 40px;
+}
+
+.TurtleSpurs .banner {
+  width: 100%;
+  height: 40vh;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.2))), url(../../assets/patent.jpg) center no-repeat;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(../../assets/patent.jpg) center no-repeat;
+  position: relative;
+}
+
+.TurtleSpurs .banner h1 {
+  width: 100%;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  text-align: center;
+  color: white;
+  font-family: "CoffeetinInitials";
+  font-size: 90px;
+}
+
+.TurtleSpurs .needless {
+  width: 100%;
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.TurtleSpurs .needless img {
+  width: 40%;
+}
+
+.TurtleSpurs .needless p {
+  padding-left: 30px;
+  width: 40%;
+  font-size: 50px;
+}
+
+.TurtleSpurs .description {
+  width: 100%;
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.TurtleSpurs .description h3 {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.TurtleSpurs .reasons {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.TurtleSpurs .reasons .list-of-reasons {
+  width: 80%;
+  padding-top: 40px;
+}
+
+.TurtleSpurs .reasons .list-of-reasons h3 {
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  padding: 15px 0;
+}
+
+.TurtleSpurs .reasons .list-of-reasons ul li {
+  margin: 0;
+  padding: 16px 0 16px 64px;
+  list-style: none;
+  background-image: url("https://res.cloudinary.com/teepublic/image/private/s--I7ZrgHsq--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_jpg,h_630,q_90,w_630/v1515173036/production/designs/2256688_1.jpg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 50px;
+}
+
+.TurtleSpurs .reasons .list-of-reasons p {
+  padding-top: 15px;
+  font-size: 30px;
 }
 /*# sourceMappingURL=TurtleSpurs.css.map */

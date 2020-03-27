@@ -1,3 +1,85 @@
+@import "../Landing/Landing.scss";
+
 .TurtleSpurs {
-    margin-top: 17vh;
+  margin-top: 17vh;
+  background-color: $backgroundColor;
+  padding-bottom: 40px;
+  .banner {
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+      url(../../assets/patent.jpg) center no-repeat;
+    // background-size: cover;
+    position: relative;
+    h1 {
+      width: 100%;
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+      color: white;
+      font-family: "CoffeetinInitials";
+      font-size: 90px;
+    }
+  }
+  .needless {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 40%;
+    }
+    p {
+      padding-left: 30px;
+      width: 40%;
+      font-size: 50px;
+    }
+  }
+  .description {
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h3 {
+      font-size: 40px;
+      padding-bottom: 20px;
+    }
+  }
+  .reasons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .list-of-reasons {
+      width: 80%;
+      padding-top: 40px;
+      h3 {
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+        padding: 15px 0;
+      }
+      ul {
+        li {
+          margin: 0;
+          padding: 16px 0 16px 64px;
+          list-style: none;
+          background-image: url("https://res.cloudinary.com/teepublic/image/private/s--I7ZrgHsq--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_jpg,h_630,q_90,w_630/v1515173036/production/designs/2256688_1.jpg");
+          background-repeat: no-repeat;
+          background-position: left center;
+          background-size: 50px;
+        }
+      }
+      p {
+        padding-top: 15px;
+        font-size: 30px;
+      }
+    }
+  }
 }
