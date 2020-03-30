@@ -1,4 +1,4 @@
-@import "../../Landing.scss";
+@import '../../../../scssColors/scssColors.scss';
 
 .landing-gallery {
   width: 100%;
@@ -96,16 +96,16 @@
     justify-content: center;
     align-items: center;
     color: white;
-    background-color: limegreen;
+    background-color: $primaryColor;
     border: solid;
-    border-color: limegreen;
+    border-color: $primaryColor;
     border-radius: 4px;
     margin: 30px 0;
     text-decoration: none;
     outline: none;
   }
   a:hover {
-    color: limegreen;
+    color: $primaryColor;
     background-color: white;
     cursor: pointer;
   }

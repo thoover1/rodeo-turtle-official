@@ -1,4 +1,4 @@
-@import "../Landing//Landing.scss";
+@import '../../scssColors/scssColors.scss';
 
 .footer-main {
   height: 58vh;
@@ -129,13 +129,13 @@
             height: 25px;
           }
           input:focus {
-            border: solid limegreen;
+            border: solid $primaryColor;
           }
           button {
             padding: 10px;
             width: 30%;
-            background-color: limegreen;
-            border: limegreen;
+            background-color: $primaryColor;
+            border: $primaryColor;
             box-shadow: 4px 4px rgba(50, 205, 50, 0.459);
             color: white;
             font-family: "Cinzel", serif;
@@ -145,14 +145,14 @@
           button:hover {
             padding: 8px;
             background-color: white;
-            color: limegreen;
-            border: solid limegreen;
+            color: $primaryColor;
+            border: solid $primaryColor;
             box-shadow: none;
             cursor: pointer;
           }
           button:active {
-            background-color: limegreen;
-            border: limegreen;
+            background-color: $primaryColor;
+            border: $primaryColor;
             color: white;
             box-shadow: none;
           }
@@ -171,7 +171,7 @@
       color: black;
     }
     .footer-right:hover {
-      color: limegreen;
+      color: $primaryColor;
     }
     .footer-right {
       display: flex;
@@ -197,7 +197,7 @@
       }
       .speech-bubble-ds p {
         margin-bottom: 10px;
-        color: limegreen;
+        color: $primaryColor;
       }
       .speech-bubble-ds p:hover {
         color: black;

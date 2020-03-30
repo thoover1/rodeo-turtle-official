@@ -1,4 +1,4 @@
-@import "../Landing/Landing.scss";
+@import '../../scssColors/scssColors.scss';
 
 .Contact {
   margin-top: 17vh;
@@ -23,7 +23,7 @@
       //   border: solid red;
       .contact-title {
         width: 90%;
-        border-bottom: 2px solid limegreen;
+        border-bottom: 2px solid $primaryColor;
         h1 {
           font-size: 45px;
           text-align: center;
@@ -81,14 +81,14 @@
           //   letter-spacing: 3px;
         }
         // input:first-child {
-        //   border-bottom-color: limegreen;
+        //   border-bottom-color: $primaryColor;
         //   transition: border-bottom-color 0.8s;
         // }
         input:hover {
           border-bottom-color: white;
         }
         input:focus {
-          border-bottom-color: limegreen;
+          border-bottom-color: $primaryColor;
         }
         .message-field {
           width: 90%;
@@ -100,7 +100,7 @@
           border-color: white;
         }
         .message-field:focus {
-          border-color: limegreen;
+          border-color: $primaryColor;
         }
         button {
           height: 40px;
@@ -109,13 +109,13 @@
           font-size: 26px;
           font-family: "Smokum";
           letter-spacing: 4px;
-          border: solid limegreen;
-          background-color: limegreen;
+          border: solid $primaryColor;
+          background-color: $primaryColor;
           color: white;
         }
         button:hover {
           background-color: white;
-          color: limegreen;
+          color: $primaryColor;
           cursor: pointer;
         }
       }
