@@ -6,10 +6,13 @@ import CarouselLanding from "./LandingComponents/CarouselLanding/CarouselLanding
 import Typist from "react-typist";
 
 const Landing = () => {
-  const [count, setCount] = useState(true);
+  const [count, setCount] = useState(0);
 
     useEffect(() => {
-    setCount(true);
+      setTimeout(() => {
+        setCount(1)
+      }, 1000)
+    // setCount(true);
   }, [count]);
 
   return (
@@ -28,7 +31,7 @@ const Landing = () => {
           <span>Custom Wood Design</span> */}
         </Typist>
       ) : (
-        ""
+        "noooooooo"
       )}
         <i class="fas fa-arrow-down"></i>
       </div>
