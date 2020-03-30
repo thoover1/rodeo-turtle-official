@@ -7,7 +7,7 @@ import Typist from "react-typist";
 
 const Landing = () => {
   const [count, setCount] = useState(0);
-  let [arrow, setArrow] = useState(null);
+  const [arrow, setArrow] = useState(null);
     useEffect(() => {
       setTimeout(() => {
         setCount(1)
@@ -37,7 +37,6 @@ const Landing = () => {
         ""
       )}
       {arrow}
-        {/* <i class="fas fa-arrow-down"></i> */}
       </div>
       <AboutLanding />
       <GalleryLanding />
