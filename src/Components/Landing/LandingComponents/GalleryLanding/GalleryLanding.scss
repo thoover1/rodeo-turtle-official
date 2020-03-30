@@ -35,7 +35,26 @@
       position: relative;
       top: 0;
       left: 0;
-
+      // -webkit-clip-path: polygon(
+      //   15% 0,
+      //   85% 0,
+      //   100% 16%,
+      //   100% 83%,
+      //   85% 100%,
+      //   14% 100%,
+      //   0 83%,
+      //   0 16%
+      // );
+      // clip-path: polygon(
+      //   15% 0,
+      //   85% 0,
+      //   100% 16%,
+      //   100% 83%,
+      //   85% 100%,
+      //   14% 100%,
+      //   0 83%,
+      //   0 16%
+      // );
       .fa-plus {
         position: absolute;
         color: black;
@@ -66,7 +85,7 @@
       }
     }
   }
- a {
+  a {
     font-family: "Cinzel", serif;
     font-weight: 900;
     width: 350px;
