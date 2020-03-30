@@ -15,9 +15,24 @@ $backgroundColor: rgb(233, 233, 233);
       font-size: 100px;
       font-family: "CoffeetinInitials";
       font-weight: 100;
-      top: 46%;
+      top: 40%;
       left: 35%;
       transform: translate(-10%, -50%)
+    }
+    .typing {
+      letter-spacing: 5px;
+      position: absolute;
+      color: rgb(0, 255, 0);
+      font-size: 50px;
+      font-family: "CoffeetinInitials";
+      font-weight: 100;
+      top: 50%;
+      left: 35%;
+      transform: translate(-10%, -50%);
+      display: flex;
+      span {
+          color: white;
+      }
     }
   .fa-arrow-down {
     position: absolute;
