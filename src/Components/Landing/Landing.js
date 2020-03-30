@@ -4,6 +4,9 @@ import AboutLanding from "./LandingComponents/AboutLanding/AboutLanding";
 import GalleryLanding from "./LandingComponents/GalleryLanding/GalleryLanding";
 import CarouselLanding from "./LandingComponents/CarouselLanding/CarouselLanding";
 
+// const title = 'Rodeo Turtle';
+// let i = 0;
+
 export default function Landing() {
   return (
     <div className="landing-page">
