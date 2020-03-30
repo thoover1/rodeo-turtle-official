@@ -22,7 +22,7 @@ const Landing = () => {
         <h2>Rodeo Turtle</h2>
         {count ? (
           // include 'onTypingDone={() => setCount(false)}' after avgTypingDelay to make infite typing loop
-        <Typist className='typing' avgTypingDelay={80} >
+        <Typist className='typing' cursor={{hideWhenDone: true, hideWhenDoneDelay: -1000}}avgTypingDelay={80} >
           <span> Home of the Turtle Spur</span>
           {/* include content below to edit text as an animation */}
           {/* <Typist.Backspace count={11} delay={800} />
@@ -31,7 +31,7 @@ const Landing = () => {
           <span>Custom Wood Design</span> */}
         </Typist>
       ) : (
-        "noooooooo"
+        ""
       )}
         <i class="fas fa-arrow-down"></i>
       </div>
