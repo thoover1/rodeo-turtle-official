@@ -17,10 +17,28 @@
   font-size: 100px;
   font-family: "CoffeetinInitials";
   font-weight: 100;
-  top: 46%;
+  top: 40%;
   left: 35%;
   -webkit-transform: translate(-10%, -50%);
           transform: translate(-10%, -50%);
+}
+
+.landing-page .landing-main .typing {
+  content: "";
+  letter-spacing: 5px;
+  position: absolute;
+  color: lime;
+  font-size: 50px;
+  font-family: "CoffeetinInitials";
+  font-weight: 100;
+  top: 50%;
+  left: 35%;
+  -webkit-transform: translate(-10%, -50%);
+          transform: translate(-10%, -50%);
+}
+
+.landing-page .landing-main .typing span {
+  color: white;
 }
 
 .landing-page .landing-main .fa-arrow-down {
@@ -29,7 +47,7 @@
   left: 50%;
   padding: 0;
   background: transparent;
-  font-size: 35px;
+  font-size: 45px;
   -webkit-animation: anim 2s infinite;
           animation: anim 2s infinite;
   color: limegreen;

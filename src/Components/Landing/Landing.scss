@@ -1,4 +1,4 @@
-@import '../../scssColors/scssColors.scss';
+@import "../../scssColors/scssColors.scss";
 
 .landing-page {
   height: 100%;
@@ -17,10 +17,10 @@
       font-weight: 100;
       top: 40%;
       left: 35%;
-      transform: translate(-10%, -50%)
+      transform: translate(-10%, -50%);
     }
     .typing {
-      content: '';
+      content: "";
       letter-spacing: 5px;
       position: absolute;
       color: rgb(0, 255, 0);
@@ -31,19 +31,19 @@
       left: 35%;
       transform: translate(-10%, -50%);
       span {
-          color: white;
+        color: white;
       }
     }
-  .fa-arrow-down {
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    padding: 0;
-    background: transparent;
-    font-size: 35px;
-    animation: anim 2s infinite;
-    color: $primaryColor;
-  }
+    .fa-arrow-down {
+      position: absolute;
+      top: 90%;
+      left: 50%;
+      padding: 0;
+      background: transparent;
+      font-size: 45px;
+      animation: anim 2s infinite;
+      color: $primaryColor;
+    }
   }
 }
 
