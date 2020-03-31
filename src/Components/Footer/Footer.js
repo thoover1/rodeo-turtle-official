@@ -3,12 +3,12 @@ import React, { useEffect } from "react";
 import "./Footer.scss";
 
 const Footer = () => {
-    useEffect(() => {
-      topScroll()
-      }, []);
-      const topScroll = () => {
-        window.scrollTo(0, 0);
-      }
+  useEffect(() => {
+    topScroll();
+  }, []);
+  const topScroll = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <div className="footer-main">
       <div className="footer-title">
@@ -98,6 +98,6 @@ const Footer = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Footer;
