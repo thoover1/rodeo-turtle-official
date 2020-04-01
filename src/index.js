@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import { HashRouter } from "react-router-dom";
 import "./index.css";
 import App from "./App";
+import ScrollToTop from "./hoc/ScrollToTop/ScrollToTop";
 import * as serviceWorker from "./serviceWorker";
 import "./WestTest-MZ7x.ttf";
 import "./CoffeetinInitials-YXJ2.ttf";
@@ -10,6 +11,7 @@ import "./Smokum-Regular.ttf";
 
 ReactDOM.render(
   <HashRouter>
+    <ScrollToTop />
     <App />
   </HashRouter>,
   document.getElementById("root")
