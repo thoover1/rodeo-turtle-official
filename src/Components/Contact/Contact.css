@@ -117,6 +117,12 @@
   transition: border-bottom-color 1s;
 }
 
+.Contact .container .contact-right form textarea {
+  max-width: 95%;
+  min-width: 90%;
+  max-height: inherit;
+}
+
 .Contact .container .contact-right form input:hover {
   border-bottom-color: white;
 }

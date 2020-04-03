@@ -1,4 +1,4 @@
-@import '../../scssColors/scssColors.scss';
+@import "../../scssColors/scssColors.scss";
 
 .Contact {
   margin-top: 17vh;
@@ -76,9 +76,11 @@
           border: 3px solid transparent;
           outline: none;
           transition: border-bottom-color 1s;
-          //   font-family: "Smokum";
-          //   font-size: 16px;
-          //   letter-spacing: 3px;
+        }
+        textarea {
+          max-width: 95%;
+          min-width: 90%;
+          max-height: inherit;
         }
         // input:first-child {
         //   border-bottom-color: $primaryColor;
